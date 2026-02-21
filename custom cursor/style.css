@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    pointer-events: none;   /* 🔥 IMPORTANT */
+    transform: translate(-50%, -50%);
+}
+
+img {
+    height: 60vh;
+    width: 40vw;
+}
+.cursor-text {
+    margin-bottom: 8px;
+    font-size: 4px;
+    font-weight: 400;
+    color: black;
+    white-space: nowrap;
+}
