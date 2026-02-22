@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Gilroy", sans-serif;
+}
+
+body{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#page1,
+#page2,
+#page3{
+    height: 100vh;
+}
+.marquee{
+    display: flex;
+    overflow: hidden;
+}
+
+.move{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: lawngreen;
+    padding: 2vw 3vw;
+    flex-shrink: 0;
+}
+
+.move h1{
+    color: black;
+    font-size: 3vw;
+}
+
+.move i{
+    font-size: 3vw;
+    color: black;
+}
