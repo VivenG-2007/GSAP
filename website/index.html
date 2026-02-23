@@ -3,50 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpage</title>
+    <title>WizardZ</title>
     <link rel="stylesheet" href="style.css">
-    <link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 <body>
-    <section class="section1">
-        <nav>
-            <h1><i class="ri-shining-2-fill"></i>WizardZ</h1>
-            <div class="part2">
-                <h4>About Us</h4>
-                <h4> Services</h4>
-                <h4>Use Cases</h4>
-                <h4> Pricing</h4>
-                <h4>Blog</h4>
-                <button>Request a Quote</button>
-            </div>
-        </nav>
-        <div class="center">
-            <div class="center-part1">
-                <h1>Navigating the Digital Landscape for success</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium labore nihil quia mollitia ex laborum tenetur numquam iste quae dolor exercitationem, ipsum accusamus quidem eligendi itaque ea sit. Non, in aliquid sunt aut vero repudiandae delectus ducimus obcaecati blanditiis illo?</p>
-                <button>Book a consulation</button>
-            </div>
-            <div class="center-part2">
 
+    <nav>
+        <h1><i class="ri-shining-2-fill"></i> WizardZ</h1>
+        <div class="nav-links">
+            <span>About Us</span>
+            <span>Services</span>
+            <span>Use Cases</span>
+            <span>Pricing</span>
+            <span>Blog</span>
+            <button class="btn-dark">Request a quote</button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-left">
+            <h1>Navigating the digital landscape for success</h1>
+            <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+            <button class="btn-dark">Book a consultation</button>
+        </div>
+        <div class="hero-right">
+            <div class="hero-image"><img src="https://img.freepik.com/premium-vector/marketing-illustration_878233-772.jpg" alt="" srcset=""></div>
+        </div>
+    </section>
+
+    <div class="brands">
+        <span>amazon</span>
+        <span>dribbble</span>
+        <span>HubSpot</span>
+        <span>Notion</span>
+        <span>NETFLIX</span>
+        <span>zoom</span>
+    </div>
+
+    <section class="services">
+        <div class="section-header">
+            <span class="tag">Services</span>
+            <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+        </div>
+        <div class="services-grid">
+
+            <!-- Card 1: Light -->
+            <div class="card card-light">
+                <div class="card-body">
+                    <h3><span class="highlight">Search engine<br>optimization</span></h3>
+                    <button class="learn-btn">
+                        <span class="learn-icon">&#8599;</span>
+                        Learn more
+                    </button>
+                </div>
+                <div class="card-illustration seo-illustration">
+                    <div class="illus-circle">
+                        <div class="illus-inner">&#128269;</div>
+                    </div>
+                    <div class="illus-lines">
+                        <div class="illus-line"></div>
+                        <div class="illus-line short"></div>
+                        <div class="illus-line"></div>
+                    </div>
+                    <div class="illus-dot"></div>
+                    <div class="illus-dot small"></div>
+                    <div class="illus-dot tiny"></div>
+                </div>
+            </div>
+
+            <!-- Card 2: Dark -->
+            <div class="card card-dark">
+                <div class="card-body">
+                    <h3><span class="highlight-white">Pay per click<br>advertising</span></h3>
+                    <button class="learn-btn learn-btn-dark">
+                        <span class="learn-icon">&#8599;</span>
+                        Learn more
+                    </button>
+                </div>
+                <div class="card-illustration ppc-illustration">
+                    <div class="browser-mock">
+                        <div class="browser-bar">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="browser-content">
+                            <div class="browser-line"></div>
+                            <div class="browser-line short"></div>
+                            <div class="cursor-icon">&#10138;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Dark -->
+            <div class="card card-dark">
+                <div class="card-body">
+                    <h3><span class="highlight-white">Social media<br>marketing</span></h3>
+                    <button class="learn-btn learn-btn-dark">
+                        <span class="learn-icon">&#8599;</span>
+                        Learn more
+                    </button>
+                </div>
+                <div class="card-illustration social-illustration">
+                    <div class="social-phone">
+                        <div class="social-top">
+                            <span class="heart">&#9825;</span>
+                            <span class="dots">&#8230;</span>
+                        </div>
+                        <div class="social-face">:)</div>
+                        <div class="social-bottom">
+                            <span class="heart">&#9825;</span>
+                            <span class="heart">&#9825;</span>
+                        </div>
+                        <div class="social-stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Light -->
+            <div class="card card-light">
+                <div class="card-body">
+                    <h3><span class="highlight">E-mail<br>marketing</span></h3>
+                    <button class="learn-btn">
+                        <span class="learn-icon">&#8599;</span>
+                        Learn more
+                    </button>
+                </div>
+                <div class="card-illustration email-illustration">
+                    <div class="email-env">&#9993;</div>
+                    <div class="email-arrow">&#10140;</div>
+                    <div class="email-env small">&#9993;</div>
+                    <div class="email-dot"></div>
+                    <div class="email-dot dark"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-left">
+            <h2>Let's make things happen</h2>
+            <p>Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+            <button class="btn-dark">Get your free proposal</button>
+        </div>
+        <div class="cta-right">🙂</div>
+    </section>
+
+    <section class="cases">
+        <div class="section-header1 section-header">
+            <span class="tag">Case study</span>
+            <p>Explore real-life examples of our proven digital marketing success through our case studies.</p>
+        </div>
+        <div class="cases-grid">
+            <div class="case-card">
+                <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                <button class="btn-lime">Learn more</button>
+            </div>
+            <div class="case-card">
+                <p>For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p>
+                <button class="btn-lime">Learn more</button>
+            </div>
+            <div class="case-card">
+                <p>For a national retail chain, we created a social media marketing campaign that increased followers by 25% and resulted in a 20% increase in online sales.</p>
+                <button class="btn-lime">Learn more</button>
             </div>
         </div>
-        <div class="bottom">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmKTChM0BxIqQ7OFXn-SMgryeSBNHIZJJB3Q&s" alt="">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw7wimLpRa8bOrabA-hwCNrU-RGasQpzelpA&s" alt="">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSefn7Nrs-mSvrzXi7Sar8jOQOMvTU4mi4_DQ&s" alt="">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYNC7NypT169LYktMtrQfFDLM5-1Ce-7Y53g&s" alt="">
-            <img src="https://iconape.com/wp-content/png_logo_vector/cib-zoom.png" alt="">
-        </div>
     </section>
-    <section class="section2">
-        <div class="section2-top">
-            <h2>Services</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod explicabo, quas repellendus perferendis sed minima facilis cum soluta vel, reprehenderit perspiciatis ea cumque quibusdam molestiae eligendi dolorem animi reiciendis? Voluptatum?</p>
-        </div>
-    </section>
-    <script src="script.js"></script>
+
+    <footer>
+        <span><i class="ri-shining-2-fill"></i> WizardZ</span>
+        <span>© 2024 WizardZ. All rights reserved.</span>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
 </body>
 </html>
