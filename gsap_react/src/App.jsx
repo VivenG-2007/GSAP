@@ -26,7 +26,7 @@ export default function App() {
   return (
     <main>
       <div ref={box} className="box" />
-      <button onClick={rotateBox}>Animate</button>
+      <button onClick={rotateBox}>Move</button>
     </main>
   )
 }
